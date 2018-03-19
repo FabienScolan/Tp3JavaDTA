@@ -21,8 +21,8 @@ public class TestArrayTri {
 		}
 		Arrays.sort(arrayT);
 		System.out.println("\nTri avec arrays");
-		for (int i = 0; i < arraySort.length ; i++){
-			System.out.println(arraySort[i]);
+		for (int i = 0; i < arrayT.length ; i++){
+			System.out.println(arrayT[i]);
 		}
 	}
 	
