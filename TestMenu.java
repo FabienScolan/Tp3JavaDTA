@@ -16,6 +16,14 @@ public class TestMenu {
 				System.out.println("\nEntrez votre nombre");
 				tableau[index] = questionUser.nextInt();
 				index++;
+				if (index >= tableau.length){
+					System.out.println("\nAgrandissement tableau");
+					int[] newtab = new int[tableau.length+5];
+					for (int i = 0; i < index; i++) {
+						newtab[i] = tableau[i];
+					}
+					tableau = newtab;
+				}
 				break;
 
 			case 2:
